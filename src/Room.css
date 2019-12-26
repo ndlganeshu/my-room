@@ -8,6 +8,14 @@
     flex-direction: row;
 }
 
+.mainBody {
+    display: flex;
+}
+
+.bodyRight {
+    margin-left: 30px;
+}
+
 nav {
     background: lightblue;
     flex: 1 1 20%;
@@ -16,9 +24,27 @@ nav {
 nav li {
     list-style: none;
     padding: 3%;
+    margin: 2px;
 }
 
 main {
     background: lightcyan;
     flex: 1 1 80%;
+}
+
+.topHeaderDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: burlywood;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
 }
